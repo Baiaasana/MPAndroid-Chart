@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="com.example.mpandroidchart.R" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:context=".fragments.LineChartFragment">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/lineChart2"
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.mpandroidchart.CustomCurrencyCheckBox
+            android:id="@+id/checkBoxRUB"
+            setCurrencyICON="@{R.drawable.rub_icon}"
+            setCurrencyTitle='@{"RUB"}'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="27dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lineChart2" />
+
+        <com.example.mpandroidchart.CustomCurrencyCheckBox
+            android:id="@+id/checkBoxEUR"
+            setCurrencyICON="@{R.drawable.eur_icon}"
+            setCurrencyTitle='@{"EUR"}'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="27dp"
+            app:layout_constraintEnd_toStartOf="@+id/checkBoxRUB"
+            app:layout_constraintStart_toEndOf="@+id/checkBoxUSD"
+            app:layout_constraintTop_toBottomOf="@+id/lineChart2" />
+
+        <com.example.mpandroidchart.CustomCurrencyCheckBox
+            android:id="@+id/checkBoxUSD"
+            setCurrencyICON="@{R.drawable.usd_icon}"
+            setCurrencyTitle='@{"USD"}'
+            android:layout_width="wrap_content"
+            android:layout_marginVertical="27dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lineChart2" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBoxEUR">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/lastweek"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="week" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/lastMonth"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="month" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/lastYear"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="year" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

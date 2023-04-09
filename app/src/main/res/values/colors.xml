@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white_system">#FFFFFFFF</color>
+
+    <color name="wallet_background">#1C1C1E</color>
+    <color name="page_background_color">#F5F5F5</color>
+    <color name="edit_text_field">#121214</color>
+
+    <color name="service_back_color">#F7F8FA</color>
+    <color name="service_border_color">#F7F8FA</color>
+    <color name="blue">#2496FF</color>
+
+    <color name="textColorPrimary">#130F26</color>
+    <color name="textColorAdditional">#4B5B6C</color>
+    <color name="hintTextColor">#DBE0E9</color>
+
+    <color name="error_color">#F83737</color>
+    <color name="error_color_bcg">#14F83737</color>
+    <color name="semi_transparent">#66000000</color>
+    <color name="shadow_color">#c7c8cA</color>
+    <color name="warning_color">#FF8D23</color>
+
+    <color name="success_color">#0DBB53</color>
+    <color name="success_color_bcg">#140DBB53</color>
+
+    <color name="warning_color_additional">#14FF8D23</color>
+
+    <color name="baseBackgroundColor">#ffffff</color>
+    <color name="loginBackgroundColor">#ffffff</color>
+    <color name="loginInputBackgroundColor">#F7F8FA</color>
+    <color name="smsCodeCellColor">#F7F8FA</color>
+    <color name="smsCodeCellColorLogin">#F7F8FA</color>
+
+    <color name="additionalBackgroundColor">#F7F8FA</color>
+    <color name="inactive_normal_btn_color">#F7F8FA</color>
+    <color name="inactiveInputStroke">#DBE0E9</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="main_color">#2496FF</color>
+    <color name="main_color_additional">#142496FF</color>
+
+    <color name="entered_digit_color">#aaaaaa</color>
+    <color name="unentered_digit_color">#f29f33</color>
+
+    <color name="header_underline_color">#E5E7EC</color>
+    <color name="blur_color">#52000000</color>
+    <color name="map_cluster">#ffffff</color>
+    <color name="snackbarcolor">#130F26</color>
+    <color name="snackbar_text_color">#0DBB53</color>
+    <color name="enabled_color">#FFC700</color>
+    <color name="enabled_color_bcg">#14FFC700</color>
+    <color name="setting_btn_color">#9766FF</color>
+    <color name="setting_btn_color_bcg">#149766FF</color>
+
+    <color name="tab_background_color">#F7F8FA</color>
+    <color name="course_text_color">#627384</color>
+    <color name="bottom_sheet_text_color">#16191C</color>
+
+</resources>
